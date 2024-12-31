@@ -231,51 +231,6 @@ print("Loading TTL data...")
 pipeline.load_ttl_file("mappingbased-objects_lang=en.ttl")
 print("ttl data loaded")
 
-#read intial nodes from "InterestingNode_cities.txt"
-# print("Loading initial notes...")
-# with open("one_city.txt","r") as file:
-    # initial_nodes = [line.strip() for line in file.readlines()]
-# print(f"initial notes read:{len(initial_nodes)}nodes.") 
 
-# with open("InterestingNode_cities.txt","r") as file:
-    # initial_nodes = [line.strip() for line in file.readlines()]
-# print(f"initial notes read:{len(initial_nodes)}nodes.") 
-# 
-# print("Setting initial activation for nodes..")
-# pipeline.set_specific_subjects_as_origin(initial_nodes,activation_value=1.0)
-# print("Setting initial activation for nodes..finished")
-# 
-# firing_threshold =0.3
-# decay_factor =0.5
-# print(f"Running spreading activation with firing threshold: {firing_threshold}, dacay factor:{decay_factor}..")
-# pipeline.graph.print_activation_levels()
-# pipeline.run_spreading_activation(firing_threshold,decay_factor)
-# pipeline.graph.print_activation_levels()
-# print("Spreading activation finished")
-# 
-# Retrieve the activated subgraph
-# print("Retrieve activated subgraph")
-# activated_nodes, activated_edges = pipeline.get_activated_subgraph(threshold=0.5)
-# print(f"Activated subgraph retrieved. {len(activated_nodes)} nodes and {len(activated_edges)} edges activated.")
-# 
-# current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-# output_file_name = f"activated_subgraph_{current_time}.ttl"
-# 
-# Save the activated subgraph
-# print(f"Saving activated subgraph to {output_file_name}...")
-# save_activated_subgraph_to_ttl(activated_edges, output_file_name)
-# print(f"Activated subgraph saved to {output_file_name}.")
-# 
-# Retrieve the edge weights
-# print("Retrieving edge weights...")
-# edge_weights = pipeline.get_edge_weights()
-# print("Retrieving edge weights...finished")
-# 
-# Save the activated subgraph with weights
-# output_file_with_weights = f"activated_subgraph_with_weights_{current_time}.ttl"
-# print(f"Saving activated subgraph with weights to {output_file_with_weights}...")
-# save_activated_subgraph_with_weights_to_ttl(activated_edges, edge_weights, output_file_with_weights)
-# print(f"Activated subgraph with weights saved to {output_file_with_weights}.")      
-# 
 
 
