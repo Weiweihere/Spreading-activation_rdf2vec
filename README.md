@@ -1,24 +1,28 @@
 # Spreading Activation on Knowledge Graph for Embedding Generation
 This repository contains an application of spreading activation on a knowledge graph to facilitate embedding generation. The process is divided into several key steps, from activation to subgraph retrieval and weight generation.
 
-Project Overview
+##Project Overview
 Spreading activation is applied to extract meaningful subgraphs and generate embeddings by propagating weights across the knowledge graph. This technique enhances the performance of embedding models like RDF2Vec by refining the structure of the graph before embedding generation.
-input:
-ttl file: the knowledgraph 
-interesting node list
+### Input
+- **TTL File:** The knowledge graph.
+- **Interesting Node List:** Specifies the nodes of interest.
 
-output: subgraph
+### Output
+- **Subgraph:** The resulting subgraph after processing.
 
-Requirements
-Python Version: 3.8
+## Requirements
+
+- **Python Version:** 3.8  
 Ensure you are using Python 3.8 to run the scripts, as compatibility with other versions is not guaranteed.
 
-Workflow Breakdown
-1. Activation Generation
-To generate activated nodes, use the following script:
-python ws_main_undirected1_addnodelimit.py
-Adjustable Parameters:
+## Workflow Breakdown
 
+### 1. Activation Generation
+To generate activated nodes, use the following script:
+```bash
+python ws_main_undirected1_addnodelimit.py
+
+Adjustable Parameters:
 *Initial Activation: 1
 *Firing Threshold: 0.7
 *Decay Factor: 0.3
