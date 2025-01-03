@@ -19,7 +19,7 @@ Ensure you are using Python 3.8 to run the scripts, as compatibility with other 
 
 ### 1. Activation Generation
 To generate activated nodes, use the following script:
-```bash
+
 python ws_main_undirected1_addnodelimit.py
 
 Adjustable Parameters:
