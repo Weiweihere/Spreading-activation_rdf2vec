@@ -23,12 +23,12 @@ To generate activated nodes, use the following script:
 python ws_main_undirected1_addnodelimit.py
 
 Adjustable Parameters:
-*Initial Activation: 1
-*Firing Threshold: 0.7
-*Decay Factor: 0.3
-*Unified Weight: 0.3
-*Subgraph Retrieval Threshold: 0
-*Iteration Limitation: 1
+* Initial Activation: 1
+* Firing Threshold: 0.7
+* Decay Factor: 0.3
+* Unified Weight: 0.3
+* Subgraph Retrieval Threshold: 0
+* Iteration Limitation: 1
 These parameters control the spreading activation dynamics.
 
 Tip:
