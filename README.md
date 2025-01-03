@@ -34,20 +34,19 @@ These parameters control the spreading activation dynamics.
 Tip:
 After running the activation, analyze the scale of the activated nodes using: python weightscale_analysis.py
 
-2. Subgraph Retrieval
+### 2. Subgraph Retrieval
 Once activation is complete, retrieve the subgraph by executing:
 python retrive_subgraph/main_subgraph_retrive.py
 This script extracts subgraphs based on the activated nodes, facilitating embedding generation on a refined subset of the knowledge graph.
 
-3. Weight File Generation for RDF2Vec
+### 3. Weight File Generation for RDF2Vec
 To generate weight files for RDF2Vec, use one of the following scripts:
-
-4. Weight file
+Weight file
    *Direct Proportional Weight:python Direct_Propotional_Weight_list.py
    *Complementary Weight:python Complementary_Weight_list.py
 These scripts generate weight configurations essential for enhancing the performance of RDF2Vec embeddings.
 
-Results
+### Results
 The results of the spreading activation and subgraph retrieval processes are presented in the attached result tables.
 
 Notes
