@@ -1,7 +1,7 @@
 # Spreading Activation on Knowledge Graph for Embedding Generation
 This repository contains an application of spreading activation on a knowledge graph to facilitate embedding generation. The process is divided into several key steps, from activation to subgraph retrieval and weight generation.
 
-##Project Overview
+## Project Overview
 Spreading activation is applied to extract meaningful subgraphs and generate embeddings by propagating weights across the knowledge graph. This technique enhances the performance of embedding models like RDF2Vec by refining the structure of the graph before embedding generation.
 ### Input
 - **TTL File:** The knowledge graph.
