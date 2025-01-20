@@ -57,7 +57,8 @@ The intergration of weight file with RDF2Vec is saved in https://github.com/Weiw
 
 # Sample Data Folder Overview
 
-This repository contains two main subfolders within the `sample_data` directory, which are used for the processes of spreading activation and weight adjustments in RDF2Vec transformations.
+This repository (saved in [Google Drive](https://drive.google.com/file/d/1vjbcr0uhDjTs5fOZ6e59ObSZNKTvBNXF/view?usp=sharing)) contains two main subfolders within the `sample_data` directory, which are used for the processes of spreading activation and weight adjustments in RDF2Vec transformations.
+
 
 ## Subfolder: `spreading_activation_0.5`
 
